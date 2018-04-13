@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				//lorainccc_welded_posted_on();
-				//lorainccc_welded_posted_by();
+				lorainccc_welded_posted_on();
+				lorainccc_welded_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php //lorainccc_welded_post_thumbnail(); ?>
+	<?php lorainccc_welded_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -54,6 +54,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php //lorainccc_welded_entry_footer(); ?>
+		<?php lorainccc_welded_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
